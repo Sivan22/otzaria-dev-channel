@@ -2,7 +2,7 @@ name: Send Release Webhook
 
 on:
   release:
-    types: [published, updated]
+    types: [published]
 
 jobs:
   send_webhook:
