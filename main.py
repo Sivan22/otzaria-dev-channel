@@ -39,7 +39,7 @@ client = MitmachimClient(username.strip().replace(" ", "+"), password.strip())
 if asset_links:
     try:
         client.login()
-        topic_id = 80213
+        topic_id = 76899
         client.send_post(content_mitmachim, topic_id)
     except Exception as e:
         print(e)
